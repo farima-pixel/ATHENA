@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="cologne.net.xml"/>
+        <route-files value="routes.rou.xml"/>
+        <additional-files value="vtypes.add.xml"/>
+    </input>
+
+    <output>
+      <!--<tripinfo-output value="/home/takeo/projeto/workspace/SUMO-Cologne_Center_2H/results/cologne2H_OVMT_100.xml"/>
+      <tripinfo-output value="/home/takeo/projeto/workspace/SUMO-Cologne_Center_2H/results/cologne2H_REROUTING_100.xml"/>
+      <device.emissions.probability value="1.0"/>-->
+    </output>
+
+    <processing>
+        <scale value="0.3"/>
+    </processing>
+
+    <begin value="21600"/>
+
+</configuration>

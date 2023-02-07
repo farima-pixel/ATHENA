@@ -1,0 +1,6 @@
+porto_dataset/
+simulation/system/scenario/
+simulation/venv/
+simulation/now.log
+get_data/scenario/
+get_data/results/
